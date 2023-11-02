@@ -30,7 +30,7 @@ function updateRules() {
         "action": {
           "type": "redirect",
           "redirect": {
-            "regexSubstitution": "https://" + address + ":3000/usher.ttvnw.net/\\1"
+            "regexSubstitution": "https://" + address + "/proxy/usher.ttvnw.net/\\1"
           }
         },
         "condition": {
@@ -44,7 +44,7 @@ function updateRules() {
         "action": {
           "type": "redirect",
           "redirect": {
-            "regexSubstitution": "https://" + address + ":3000/video-weaver.\\1/\\2"
+            "regexSubstitution": "https://" + address + "/proxy/video-weaver.\\1/\\2"
           }
         },
         "condition": {
@@ -58,7 +58,7 @@ function updateRules() {
         "action": {
           "type": "redirect",
           "redirect": {
-            "regexSubstitution": "https://" + address + ":3000/video-edge-\\1/\\2"
+            "regexSubstitution": "https://" + address + "/proxy/video-edge-\\1/\\2"
           }
         },
         "condition": {
